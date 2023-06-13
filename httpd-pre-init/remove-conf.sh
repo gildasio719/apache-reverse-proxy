@@ -9,9 +9,9 @@ rm /etc/httpd/conf.d/welcome.conf
 cp /opt/app-root/etc/httpd.d/welcome.conf /etc/httpd/conf.d/welcome.conf
 rm /opt/app-root/etc/httpd.d/welcome.conf
 
-# rm /etc/httpd/conf.d/ssl.conf
-cp /opt/app-root/etc/httpd.d/parcela-ssl.conf /etc/httpd/conf.d/parcela-ssl.conf
-rm /opt/app-root/etc/httpd.d/parcela-ssl.conf
+rm /etc/httpd/conf.d/ssl.conf
+cp /opt/app-root/etc/httpd.d/ssl.conf /etc/httpd/conf.d/ssl.conf
+rm /opt/app-root/etc/httpd.d/ssl.conf
 
 cp /opt/app-root/etc/httpd.d/parcela.conf /etc/httpd/conf.d/parcela.conf
 rm /opt/app-root/etc/httpd.d/parcela.conf
