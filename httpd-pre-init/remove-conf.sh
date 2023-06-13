@@ -7,3 +7,7 @@ echo " ## copy  /opt/app-root/etc/httpd.d/httpd.conf ##"
 cp /opt/app-root/etc/httpd.d/httpd.conf /etc/httpd/conf/httpd.conf
 echo " ## remove  /opt/app-root/etc/httpd.d/httpd.conf ##"
 rm /opt/app-root/etc/httpd.d/httpd.conf
+
+rm /etc/httpd/conf.d/welcome.conf
+cp /opt/app-root/etc/httpd.d/welcome.conf /etc/httpd/conf.d/welcome.conf
+rm /opt/app-root/etc/httpd.d/welcome.conf
